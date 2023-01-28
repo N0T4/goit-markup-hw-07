@@ -1,0 +1,163 @@
+@media screen and (min-width: 768px) {
+
+    .features {
+        width: 736px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        column-gap: 24px;
+        column-gap: 24px;
+        row-gap: 72px;
+
+    }
+
+    .features-item {
+        max-width: 356px;
+    }
+
+    .features-item>div {
+        display: none;
+    }
+
+    .title {
+        text-align: start;
+    }
+
+    .information {
+        text-align: start;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 24px;
+        letter-spacing: 0.02em;
+    }
+
+    .our-work {
+        display: none;
+    }
+
+    .container {
+        padding: 0px 12px;
+        margin: 0 auto;
+        width: 576px;
+    }
+
+    .container-hero,
+    .container-footer,
+    .container-button,
+    .container-comp {
+        width: 576px;
+
+        margin: 0 auto;
+    }
+
+    .container-mobile {
+
+        margin: 0 auto;
+        width: 736px;
+    }
+
+    .description-list {
+        width: 552px;
+        flex-wrap: wrap;
+        justify-content: normal;
+        flex-direction: row;
+        align-items: start;
+
+        column-gap: 24px;
+        row-gap: 64px;
+    }
+
+    .company-list {
+
+        max-width: 552px;
+
+        column-gap: 16px;
+        row-gap: 72px;
+        list-style: none;
+    }
+
+    .container-footer {
+        display: flex;
+        width: 576px;
+        flex-direction: row;
+        flex-wrap: wrap;
+        text-align: start;
+
+    }
+
+    .footer-hero>h3 {
+        text-align: start;
+        margin-top: 0px;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 24px;
+
+        color: #FFFFFF;
+        letter-spacing: 0.02em;
+    }
+
+    .footer-hero {
+        height: 112px;
+        text-align: center;
+        margin-left: 24px;
+    }
+
+    .search-footer {
+        width: 100%;
+        padding: 0px 16px;
+        margin-left: 0px;
+    }
+
+    .search-footer>form {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .search-footer>h3 {
+        margin-top: 72px;
+        margin-bottom: 16px;
+
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 24px;
+
+        letter-spacing: 0.02em;
+
+        color: #FFFFFF;
+    }
+
+    .input-footer {
+        width: 264px;
+    }
+
+    .subscribe {
+        margin-top: 0px;
+        margin-left: 23px;
+    }
+
+    /* -----------MAIN-PORTFOLIO-------------- */
+    .list-project {
+        width: 736px;
+        margin: 0 auto;
+        justify-content: start;
+        padding-bottom: 96px;
+    }
+
+    .main-section-port {
+
+        padding: 0px 16px;
+    }
+
+    .img {
+        max-width: 356px;
+    }
+
+    .project-port {
+        width: 356px;
+    }
+}
