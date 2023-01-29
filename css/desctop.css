@@ -129,11 +129,57 @@
         color: #FFFFFF;
     }
 
+    /* -----------MAIN-HERO-------------- */
+
+
+    .hero-section {
+        max-width: 100%;
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7),
+                rgba(46, 47, 66, 0.7)),
+            url(../images/people-office.jpg);
+
+        padding: 188px 0px;
+
+    }
+
+    @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+        .hero-section {
+            background-image: linear-gradient(rgba(46, 47, 66, 0.7),
+                    rgba(46, 47, 66, 0.7)), url(../images/des-bg-2x.jpg);
+        }
+    }
+
+    .container-hero {}
+
+    .hero {
+        margin-bottom: 48px;
+    }
+
     /* -----------MAIN-PORTFOLIO-------------- */
+
+    .body-nav {
+        width: 100%;
+        justify-content: center;
+
+    }
+
+    .container-project {
+        width: 100%;
+        padding: 0px 12px;
+        margin: 0 auto;
+    }
 
     .list-project {
         width: 1128px;
         justify-content: center;
         padding-bottom: 120px;
+    }
+
+    /* -----------OVERLAY-------------- */
+    .overlay {
+        padding-top: 88px;
+        display: inline-block;
     }
 }

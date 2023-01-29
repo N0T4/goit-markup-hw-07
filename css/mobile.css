@@ -60,6 +60,19 @@
     }
 
     /* -----------MAIN-PORTFOLIO-------------- */
+
+
+    .container-project {
+        width: 396px;
+        padding: 0px 12px;
+        margin: 0 auto;
+    }
+
+    .body-nav {
+        width: 263px;
+
+    }
+
     .list-project {
         padding-bottom: 48px;
     }
@@ -82,5 +95,15 @@
 
     .item-project {
         max-width: 396px;
+    }
+
+    /* -----------OVERLAY-------------- */
+    .modal {
+        width: 392px;
+
+    }
+
+    .overlay {
+        padding-top: 96px;
     }
 }

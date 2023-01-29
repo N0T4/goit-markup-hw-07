@@ -140,7 +140,57 @@
         margin-left: 23px;
     }
 
+    /* -----------MAIN-HERO-------------- */
+
+
+    .hero-section {
+        max-width: 100%;
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7),
+                rgba(46, 47, 66, 0.7)),
+            url(../images/tab-bg.jpg);
+
+        padding: 112px 0px 108px;
+
+    }
+
+    @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+        .hero-section {
+            background-image: linear-gradient(rgba(46, 47, 66, 0.7),
+                    rgba(46, 47, 66, 0.7)), url(../images/tab-bg-2x.jpg);
+        }
+    }
+
+    .container-hero {}
+
+    .hero {
+
+        margin-bottom: 40px;
+        text-align: center;
+        font-weight: 700;
+        font-size: 56px;
+        line-height: 60px;
+
+
+        text-align: center;
+        letter-spacing: 0.02em color #FFFFFF;
+    }
+
     /* -----------MAIN-PORTFOLIO-------------- */
+
+    .body-nav {
+        width: 736px;
+        justify-content: center;
+
+    }
+
+    .container-project {
+        width: 736px;
+        padding: 0px 12px;
+        margin: 0 auto;
+    }
+
     .list-project {
         width: 736px;
         margin: 0 auto;
@@ -159,5 +209,11 @@
 
     .project-port {
         width: 356px;
+    }
+
+    /* -----------OVERLAY-------------- */
+    .overlay {
+        padding-top: 96px;
+        display: inline-block;
     }
 }

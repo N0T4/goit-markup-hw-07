@@ -19,7 +19,7 @@ body {
 
 /* -------GENERAL------- */
 
-.container-hero,
+
 .container-footer,
 .container-button,
 .container-comp {
@@ -210,18 +210,22 @@ h3 {
 }
 
 .container-project {
-    width: 1152px;
+    width: 320px;
     padding: 0px 12px;
     margin: 0 auto;
 }
 
 .body-nav {
-    justify-content: center;
+    justify-content: start;
     display: flex;
 
     margin-bottom: 72px;
-    display: flex;
-    gap: 24px;
+    column-gap: 16px;
+    row-gap: 24px;
+
+    flex-wrap: wrap;
+
+
 }
 
 .button {
@@ -262,26 +266,39 @@ h3 {
 /* -----------MAIN-HERO-------------- */
 
 .hero-section {
-    max-width: 1440px;
+    max-width: 100%;
     background-image: linear-gradient(rgba(46, 47, 66, 0.7),
             rgba(46, 47, 66, 0.7)),
-        url(../images/people-office.jpg);
+        url(../images/mod-bg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    padding: 192px 0px;
+    padding: 112px 0px;
     text-align: center;
     margin: 0 auto;
 }
 
+@media (min-device-pixel-ratio: 2),
+(min-resolution: 192dpi),
+(min-resolution: 2dppx) {
+    .hero-section {
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7),
+                rgba(46, 47, 66, 0.7)), url(../images/mod-bg-2x.jpg);
+    }
+}
+
+.container-hero {}
+
 .hero {
-    margin-bottom: 48px;
+
+    margin-bottom: 72px;
     text-align: center;
 
-    font-style: normal;
-    font-weight: 500;
-    font-size: 56px;
-    line-height: 60px;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 40px;
+
+
 
     letter-spacing: 0.02em;
     color: #FFFFFF;
@@ -568,6 +585,7 @@ h3 {
     flex-wrap: wrap;
     row-gap: 48px;
     column-gap: 24px;
+    padding-bottom: 48px;
 }
 
 .item-project {
@@ -860,6 +878,8 @@ h3 {
 /* -----------OVERLAY-------------- */
 .overlay {
     padding-top: 88px;
+    padding-left: 10px;
+    padding-right: 10px;
     width: 100%;
     height: 100%;
     background-color: rgba(17, 19, 25, 0.5);
@@ -885,7 +905,7 @@ h3 {
 
     padding: 24px;
     margin: auto;
-    width: 408px;
+    width: 100%;
     min-height: 576px;
     background-color: #FCFCFC;
 }
