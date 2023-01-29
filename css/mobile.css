@@ -1,4 +1,4 @@
-@media screen and (min-width: 428px) {
+@media screen and (min-width: 480px) {
 
     .features-item {
         padding-left: 0px;
@@ -23,9 +23,9 @@
     .container-hero,
     .container-button,
     .container-comp {
-        width: 288px;
+        width: 396px;
 
-        margin: 0 auto;
+        margin: auto;
     }
 
     .container-footer {
@@ -44,8 +44,9 @@
     }
 
     .company-list {
+        margin-top: 72px;
 
-        margin: 0 auto;
+
 
         max-width: 396px;
 
