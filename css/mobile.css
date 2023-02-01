@@ -63,7 +63,7 @@
 
 
     .container-project {
-        width: 396px;
+        max-width: 420px;
         padding: 0px 12px;
         margin: 0 auto;
     }
@@ -78,8 +78,7 @@
     }
 
     .img {
-        min-width: 396px;
-        background-repeat: no-repeat;
+        max-width: 396px;
     }
 
     .project-port {
@@ -87,15 +86,15 @@
     }
 
     .project-block-top-text {
-        min-width: 396px;
+        max-width: 396px;
     }
 
     .review-prot {
-        min-width: 396px;
+        max-width: 396px;
     }
 
     .item-project {
-        min-width: 396px;
+        max-width: 396px;
     }
 
     /* -----------OVERLAY-------------- */

@@ -186,8 +186,8 @@
     }
 
     .container-project {
-        width: 736px;
-        padding: 0px 12px;
+        max-width: 736px;
+        padding: 0px 0px;
         margin: 0 auto;
     }
 
@@ -210,6 +210,20 @@
     .project-port {
         width: 356px;
     }
+
+    .item-project {
+        max-width: 356px;
+    }
+
+    .project-block-top-text {
+        max-width: 356px;
+    }
+
+    .review-prot {
+        max-width: 356px;
+    }
+
+
 
     /* -----------OVERLAY-------------- */
     .overlay {

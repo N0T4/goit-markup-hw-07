@@ -166,8 +166,8 @@
     }
 
     .container-project {
-        width: 100%;
-        padding: 0px 12px;
+        max-width: 1128px;
+        padding: 0px 0px;
         margin: 0 auto;
     }
 
@@ -175,6 +175,27 @@
         width: 1128px;
         justify-content: center;
         padding-bottom: 120px;
+
+    }
+
+    .img {
+        max-width: 3px60;
+    }
+
+    .project-port {
+        width: 360px;
+    }
+
+    .item-project {
+        max-width: 360px;
+    }
+
+    .project-block-top-text {
+        max-width: 360px;
+    }
+
+    .review-prot {
+        max-width: 360px;
     }
 
     /* -----------OVERLAY-------------- */

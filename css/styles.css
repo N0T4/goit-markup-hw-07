@@ -210,7 +210,7 @@ h3 {
 }
 
 .container-project {
-    width: 100%;
+    max-width: 342px;
     padding: 0px 12px;
     margin: 0 auto;
 }
@@ -604,7 +604,7 @@ h3 {
     text-decoration: none;
     border-radius: 0px 0px 4px 4px;
     background: #FFFFFF;
-    max-width: 396px;
+    max-width: 360px;
     font-weight: 500;
     color: var(--color-brend2);
 
@@ -624,7 +624,7 @@ h3 {
 
 .img {
 
-    max-width: 396px;
+    max-width: 320px;
     margin: 0px;
     display: block;
 }
@@ -658,7 +658,7 @@ h3 {
 }
 
 .review-prot {
-    max-width: 396px;
+    max-width: 360px;
     border-left: 1px solid #E7E9FC;
     border-right: 1px solid #E7E9FC;
     border-bottom: 1px solid #E7E9FC;
