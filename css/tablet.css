@@ -1,5 +1,55 @@
 @media screen and (min-width: 768px) {
 
+
+    .mob-menu {
+        display: none;
+    }
+
+
+    /* --------------HEADER------------- */
+
+    .container.main-block {
+        width: 736px;
+    }
+
+    .main-nav {
+        margin-right: 0px;
+        display: flex;
+        align-items: center;
+
+    }
+
+    .second-nav {
+        display: flex;
+        flex-direction: column;
+        gap: 4px;
+        justify-content: end;
+        padding-bottom: 10px;
+    }
+
+    .menu-nav {
+        display: flex;
+        margin-left: 123px;
+
+    }
+
+    .mail,
+    .phone {
+        padding: 0px 0px;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 16px;
+        letter-spacing: 0.04em;
+    }
+
+    .menu-mob {
+        display: none;
+    }
+
+
+
+    /* ------------------------------------ */
+
     .features {
         width: 736px;
         display: flex;
@@ -182,7 +232,8 @@
     .body-nav {
         width: 736px;
         justify-content: center;
-
+        margin-top: 0px;
+        margin-bottom: 64px;
     }
 
     .container-project {
@@ -199,7 +250,9 @@
     }
 
     .main-section-port {
-
+        margin-top: 64px;
+        padding-top: 0px;
+        margin-top: 48px;
         padding: 0px 16px;
     }
 

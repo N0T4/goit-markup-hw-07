@@ -1,4 +1,36 @@
 @media screen and (min-width: 1200px) {
+    /* --------------HEADER----------------- */
+
+    .container.main-block {
+        width: 1152px;
+    }
+
+
+    .second-nav {
+        display: flex;
+        flex-direction: row;
+        gap: 40px;
+        align-items: center;
+        padding-bottom: 0px;
+    }
+
+    .menu-nav {
+        display: flex;
+        margin-left: 76px;
+
+    }
+
+    .mail,
+    .phone {
+        padding: 0px 0px;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+
+        letter-spacing: 0.02em;
+    }
+
+    /* ---------------------------------- */
     .features {
         width: 1152px;
         display: flex;
@@ -163,6 +195,12 @@
         width: 100%;
         justify-content: center;
 
+        margin-bottom: 72px;
+
+    }
+
+    .main-section-port {
+        margin-top: 96px;
     }
 
     .container-project {
