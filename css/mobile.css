@@ -1,4 +1,4 @@
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 428px) {
 
     .soc-list-mob {
 
@@ -97,7 +97,7 @@
 
     .container-project {
         max-width: 420px;
-        padding: 0px 0px;
+        padding: 0px 12px;
         margin: 0 auto;
     }
 

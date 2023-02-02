@@ -16,6 +16,9 @@ body {
     background: white;
 }
 
+.container {
+    padding: 0px 16px;
+}
 
 /* -------GENERAL------- */
 
@@ -36,7 +39,7 @@ body {
 .container-button,
 .container-comp {
     width: 100%;
-
+    padding: 0px 16px;
     margin: 0 auto;
 }
 
@@ -311,7 +314,7 @@ h3 {
 /* -----------MAIN-HERO-------------- */
 
 .hero-section {
-    max-width: 100%;
+    max-width: 428px;
     background-image: linear-gradient(rgba(46, 47, 66, 0.7),
             rgba(46, 47, 66, 0.7)),
         url(../images/mod-bg.jpg);
@@ -327,12 +330,15 @@ h3 {
 (min-resolution: 192dpi),
 (min-resolution: 2dppx) {
     .hero-section {
+        max-width: 428px;
         background-image: linear-gradient(rgba(46, 47, 66, 0.7),
                 rgba(46, 47, 66, 0.7)), url(../images/mod-bg-2x.jpg);
     }
 }
 
-.container-hero {}
+.container-hero {
+    padding: 0px 16px;
+}
 
 .hero {
 
@@ -381,6 +387,11 @@ h3 {
 }
 
 /* -----------MAIN-FEATURES-------------- */
+.container-mobile {
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
 .section-features {
     padding-top: 120px;
     padding-bottom: 96px;
@@ -400,8 +411,6 @@ h3 {
 }
 
 .features-item {
-    padding-left: 16px;
-    padding-right: 16px;
     max-width: 396px;
 }
 
@@ -1121,6 +1130,7 @@ h3 {
 
 /* -----------OVERLAY-------------- */
 .overlay {
+    overflow: auto;
     padding-top: 88px;
     padding-left: 10px;
     padding-right: 10px;
