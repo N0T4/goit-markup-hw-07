@@ -101,7 +101,8 @@
     }
 
     .container-mobile {
-
+        padding-left: 0px;
+        padding-right: 0px;
         margin: 0 auto;
         width: 736px;
     }
@@ -191,7 +192,7 @@
 
     /* -----------MAIN-HERO-------------- */
 
-
+    /* 
     .hero-section {
         max-width: 768px;
         background-image: linear-gradient(rgba(46, 47, 66, 0.7),
@@ -210,7 +211,7 @@
             background-image: linear-gradient(rgba(46, 47, 66, 0.7),
                     rgba(46, 47, 66, 0.7)), url(../images/tab-bg-2x.jpg);
         }
-    }
+    } */
 
     .container-hero {}
 
