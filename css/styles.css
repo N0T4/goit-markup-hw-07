@@ -733,7 +733,7 @@ h3 {
     line-height: 24px;
     padding: 40px 32px;
 
-    transform: translateY(100%);
+    transform: translateY(102%);
     transition-property: transform;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
